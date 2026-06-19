@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(75deg, #ffe34f, #ff4563);
+    min-width: 1400px;
+    min-height: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    font-style: oblique;
+    text-decoration: double underline;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    border: 3px solid red;
+}
+
+.box{
+    position: relative;
+    display: grid;
+    background: linear-gradient(75deg, blue , white
+    );
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+
+}
+.boxes{
+    width: 200px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+    padding: 10px;
+
+}
+
+button{
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 2rem;
+    background: linear-gradient(25deg, orange,blue);
+    animation: myanimation infinite linear ease-in-out;
+}
+ img{
+    height: 100px;
+    width: 100px;
+ }
